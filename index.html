@@ -4,25 +4,41 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-     <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="style.css">
      <title>Document</title>
 </head>
 <body>
      
 
-     <div class="container">
+     <div class="container ">
           <img id="music-image" alt="">
           <audio src="" id="audio"></audio>
           <div id="music-details">
                <p class="title"></p>
                <p class="singer"></p>
           </div>
+          <div id="progress">
+               <input type="range"  id="progress-bar">
+               <div class="times">
+                    <span id="current-time">0:00</span>
+                    <span id="duration">0:00</span>
+               </div>
+          </div>
           <div id="controls">
-               <i id="prev" class='bx bxs-skip-previous-circle'></i>
-               <i id="play" class='bx bx-play-circle'></i>
-               <i id="next" class='bx bxs-skip-next-circle'></i>
+               <div>
+                    <i id="prev" class='bx bxs-skip-previous-circle'></i>
+                    <i id="play" class='bx bx-play-circle'></i>
+                    <i id="next" class='bx bxs-skip-next-circle'></i>
+               </div>
+               
+               <div>
+                    <i id="volume" class='bx bxs-volume-full'></i>
+                    <input type="range"  id="volume-bar" max="100" value="100">
+               </div>
           </div>
      </div>
+
+    
 
 
 
