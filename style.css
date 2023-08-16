@@ -4,3 +4,22 @@
      margin-right:20px ;
 
 }
+.container{
+     width: 350px;
+}
+
+#progress{
+     margin-bottom: 20px;
+}
+#progress-bar{
+     width: 100%;
+}
+#music-image{
+     width: 100%;
+}
+#progress .times,
+#controls {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
