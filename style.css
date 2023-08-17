@@ -1,8 +1,8 @@
-body{
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     height: 100vh;
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 /* #controls i{
@@ -11,8 +11,8 @@ body{
      margin-right:20px ;
 
 } */
-.container{
-     width: 400px;
+.container {
+  width: 400px;
 }
 
 /* #progress{
@@ -22,22 +22,58 @@ body{
      width: 100%;
 } */
 
-#progress .times, .card-footer, .volume-container
- {
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
+#progress .times,
+.card-footer,
+.volume-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.btn-primary{
-     font-size: 22px;
+.btn-primary {
+  font-size: 22px;
 }
 
-.volume-container i{
-     margin-right: 5px;
+.volume-container i {
+  margin-right: 5px;
 }
 
-li.playing{
-     background-color: #0b5eb7;
-     color: #fff;
+li.playing {
+  background-color: #0b5eb7;
+  color: #fff;
 }
+
+.range-container {
+  width: 100%;
+  position: relative;
+}
+
+.range-fill {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  transform: translateY(-50%);
+  border-radius: 16px;
+  height: 8px;
+  pointer-events: none;
+}
+
+.card-footer {
+  background-color: #dada83;
+}
+
+.volume-container{
+     width: 40%;
+     position: relative;
+}
+.volume-fill{
+     position: absolute;
+     left: 0;
+     top: 50%;
+     transform: translateY(-50%);
+     border-radius: 16px;
+     height: 7px;
+     /* pointer-events: none; */
+}
+
+
