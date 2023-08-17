@@ -1,25 +1,43 @@
-#controls i{
+body{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+}
+
+/* #controls i{
      font-size: 30px;
      color:rgb(126, 7, 126);
      margin-right:20px ;
 
-}
+} */
 .container{
-     width: 350px;
+     width: 400px;
 }
 
-#progress{
+/* #progress{
      margin-bottom: 20px;
 }
 #progress-bar{
      width: 100%;
-}
-#music-image{
-     width: 100%;
-}
-#progress .times,
-#controls {
+} */
+
+#progress .times, .card-footer, .volume-container
+ {
      display: flex;
      align-items: center;
      justify-content: space-between;
+}
+
+.btn-primary{
+     font-size: 22px;
+}
+
+.volume-container i{
+     margin-right: 5px;
+}
+
+li.playing{
+     background-color: #0b5eb7;
+     color: #fff;
 }
