@@ -1,0 +1,82 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* #controls i{
+     font-size: 30px;
+     color:rgb(126, 7, 126);
+     margin-right:20px ;
+
+} */
+.container {
+  width: 400px;
+}
+
+/* #progress{
+     margin-bottom: 20px;
+}
+#progress-bar{
+     width: 100%;
+} */
+
+#progress .times,
+.card-footer,
+.volume-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-primary {
+  font-size: 22px;
+}
+
+.volume-container i {
+  margin-right: 5px;
+}
+
+li.playing {
+  background-color: #0b5eb7;
+  color: #fff;
+}
+
+.range-container {
+  width: 100%;
+  position: relative;
+}
+
+.range-fill {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  transform: translateY(-50%);
+  border-radius: 16px;
+  height: 8px;
+  pointer-events: none;
+}
+
+.card-footer {
+  background-color: #dada83;
+}
+
+/* #volume-bar::-webkit-slider-runnable-track {
+  background-color: blue;
+} */
+
+.volume-container {
+  width: 100%;
+  position: relative;
+}
+
+.range-fill-2 {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 16px;
+  height: 8px;
+  pointer-events: none;
+}
